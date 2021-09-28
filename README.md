@@ -5,9 +5,10 @@ find a free copy of the book as well as the acompanying source code.
 
 # Free Book
 
-- Grab your free PDF copy [HERE](https://github.com/asdfjkl/jerry/releases/tag/v4.1.1))
+- Grab your free PDF copy [HERE](https://github.com/asdfjkl/jerry/releases/tag/v4.1.1)
 - Buy a printed copy [HERE]()
-- Donations are welcome: 
+
+Donations are welcome: 
 
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=9K2JDF5YBDZT6)
 
