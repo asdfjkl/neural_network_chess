@@ -1,6 +1,6 @@
 # Neural Networks For Chess
 
-![cover](https://raw.githubusercontent.com/asdfjkl/neural_network_chess/main/cover_single_graphic.png?token=AADBBS7464Q7U25PXGNATADBKLI34)
+![cover](https://raw.githubusercontent.com/asdfjkl/neural_network_chess/main/cover_single_graphic.png)
 
 # Free Book
 
