@@ -6,7 +6,7 @@ find a free copy of the book as well as the acompanying source code.
 # Free Book
 
 - Grab your free PDF copy [HERE](https://github.com/asdfjkl/jerry/releases/tag/v4.1.1)
-- Buy a printed copy [HERE]()
+- Buy a printed copy HERE (coming soon)
 
 Donations are welcome: 
 
@@ -35,11 +35,11 @@ During COVID, I worked a lot from home and saved approximately 1.5 hours of comm
 
 # Profits
 
-To be completely transparent, here is what I make from every paper copy sold on Amazon. The book retails for 14.95 Euro.
+To be completely transparent, here is what I make from every paper copy sold on Amazon. The book retails for $ 16.95 (about 15 Euro).
 
-- Amazon takes
-- XYZ takes
-- I get 
+- printing costs $ 4.04
+- Amazon takes $ 6.78
+- My royalties are $6.13
 
 # Errata
 
