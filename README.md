@@ -29,7 +29,7 @@ are used to build deep networks such as those used by AlphaZero. Contents includ
 
 # Source Code
 
-Just clone this repository or directly browse the file. You will find here all sources of the examples of the book.
+Just clone this repository or directly browse the files. You will find here all sources of the examples of the book.
 
 # About
 
@@ -41,7 +41,7 @@ To be completely transparent, here is what I make from every paper copy sold on 
 
 - printing costs $4.04
 - Amazon takes $6.78
-- My royalties are $6.13
+- my royalties are $6.13
 
 # Errata
 
