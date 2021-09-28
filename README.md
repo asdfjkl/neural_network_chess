@@ -1,7 +1,6 @@
 # Neural Networks For Chess
 
-This is the page of the free book "Neural Networks For Chess". Here you can 
-find a free copy of the book as well as the acompanying source code.
+![cover](https://raw.githubusercontent.com/asdfjkl/neural_network_chess/main/cover_single_graphic.png?token=AADBBS7464Q7U25PXGNATADBKLI34)
 
 # Free Book
 
@@ -11,7 +10,6 @@ find a free copy of the book as well as the acompanying source code.
 Donations are welcome: 
 
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=9K2JDF5YBDZT6)
-
 
 # Contents
 
@@ -28,6 +26,10 @@ are used to build deep networks such as those used by AlphaZero. Contents includ
 3. The third chapter shows how modern chess engines are designed. Aside from the ground-breaking AlphaGo, AlphaGo Zero and AlphaZero we cover Leela Chess Zero, Fat Fritz, Fat Fritz 2 and Effectively Updateable Neural Networks (NNUE) as well as Maia.
 
 4. The fourth chapter is about implementing a miniaturized AlphaZero. Hexapawn, a minimalistic version of chess, is used as an example for that. Hexapawn is solved by minimax search and training positions for supervised learning are generated. Then as a comparison, an AlphaZero-like training loop is implemented where training is done via self-play combined with reinforcement learning. Finally, AlphaZero-like training and supervised training are compared.
+
+# Source Code
+
+Just clone this repository or directly browse the file. You will find here all sources of the examples of the book.
 
 # About
 
