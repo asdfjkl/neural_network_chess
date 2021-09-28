@@ -33,7 +33,7 @@ Just clone this repository or directly browse the file. You will find here all s
 
 # About
 
-During COVID, I worked a lot from home and saved approximately 1.5 hours of commuting time. I decided to use that time to do something useful and wrote a book about computer chess. In the end I decided to release the book for free.
+During COVID, I worked a lot from home and saved approximately 1.5 hours of commuting time each day. I decided to use that time to do something useful (?) and wrote a book about computer chess. In the end I decided to release the book for free.
 
 # Profits
 
