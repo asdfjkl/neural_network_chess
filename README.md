@@ -45,4 +45,4 @@ To be completely transparent, here is what I make from every paper copy sold on 
 
 # Errata
 
-If you find mistakes, please report them [here](https://github.com/asdfjkl/neural_network_chess/issues/1) - your help appreciated!
+If you find mistakes, please report them [here](https://github.com/asdfjkl/neural_network_chess/issues/1) - your help is appreciated!
