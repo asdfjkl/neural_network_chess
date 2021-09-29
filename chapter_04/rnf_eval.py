@@ -1,22 +1,17 @@
 import keras
-from HexapawnZero.common.game import Board
+from common.game import Board
 import random
 import numpy as np
 
-model = keras.models.load_model("supervised_model.keras")
-# Rand vs Supervised Network: 0.0/0.0/1.0
-# Rand vs Rand Network: 0.59/0.0/0.41
-
-# model = keras.models.load_model("../common/random_model.keras")
-# Rand vs Supervised Network: 0.3/0.46/0.24
-# Rand vs Rand Network: 0.37/0.36/0.27
+model = keras.models.load_model("model_it10.keras")
+#model = keras.models.load_model("common/random_model.keras")
 
 def fst(a):
     return a[0]
 
 # white == random player
 # black == network
-def rand_vs_net(board):
+def net_vs_rand(board):
     record = []
     while(not fst(board.isTerminal())):
         if(board.turn == Board.WHITE):
@@ -41,8 +36,6 @@ def rand_vs_net(board):
             record.append(sel_move)
             continue
     terminal, winner = board.isTerminal()
-    #if(winner != Board.WHITE):
-    #    print(record)
     return winner
 
 # white random player
@@ -59,27 +52,26 @@ def rand_vs_rand(board):
 
 whiteWins = 0
 blackWins = 0
-draws = 0
+
 for i in range(0,100):
     board = Board()
     board.setStartingPosition()
     moves = board.generateMoves()
     m = moves[random.randint(0, len(moves)-1)]
     board.applyMove(m)
-    winner = rand_vs_net(board)
+    winner = net_vs_rand(board)
     if(winner == Board.WHITE):
         whiteWins += 1
     if(winner == Board.BLACK):
         blackWins += 1
-    if(winner == Board.DRAW):
-        draws += 1
-all = whiteWins + blackWins + draws
-print("Rand vs Supervised Network: "+str(whiteWins/all) +"/"+str(draws/all)+ "/"+str(blackWins/all))
+
+all = whiteWins + blackWins
+print("Rand Network vs Reinforcement: "+str(whiteWins/all) + "/"+str(blackWins/all))
 
 
 whiteWins = 0
 blackWins = 0
-draws = 0
+
 for i in range(0,100):
     board = Board()
     board.setStartingPosition()
@@ -91,7 +83,6 @@ for i in range(0,100):
         whiteWins += 1
     if(winner == Board.BLACK):
         blackWins += 1
-    if(winner == Board.DRAW):
-        draws += 1
-all = whiteWins + blackWins + draws
-print("Rand vs Rand Network: "+str(whiteWins/all) +"/"+str(draws/all)+ "/"+str(blackWins/all))
+
+all = whiteWins + blackWins
+print("Rand vs Rand Network: "+str(whiteWins/all) + "/"+str(blackWins/all))

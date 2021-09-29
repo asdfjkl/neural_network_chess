@@ -1,6 +1,6 @@
-import mcts
+import rnf_mcts
 import keras
-from HexapawnZero.common.game import Board
+from common.game import Board
 from tqdm import tqdm
 import numpy as np
 
@@ -32,10 +32,10 @@ class ReinfLearn():
             # network input format
             positionsData.append(g.toNetworkInput())
             # setup the MCT search
-            rootEdge = mcts.Edge(None, None)
+            rootEdge = rnf_mcts.Edge(None, None)
             rootEdge.N = 1
-            rootNode = mcts.Node(g, rootEdge)
-            mctsSearcher = mcts.MCTS(self.model)
+            rootNode = rnf_mcts.Node(g, rootEdge)
+            mctsSearcher = rnf_mcts.MCTS(self.model)
             moveProbs = mctsSearcher.search(rootNode)
             # MCT search return move probabilities for
             # all legal moves. To get an output vector
@@ -77,8 +77,8 @@ class ReinfLearn():
 
 
 # now let's try to train the ranomly initliazed network
-model = keras.models.load_model("../common/random_model.keras")
-mctsSearcher = mcts.MCTS(model)
+model = keras.models.load_model("common/random_model.keras")
+mctsSearcher = rnf_mcts.MCTS(model)
 learner = ReinfLearn(model)
 # we train the network in 11 iterations
 for i in (range(0,11)):

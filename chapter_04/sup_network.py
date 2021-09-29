@@ -18,9 +18,9 @@ bce = tf.keras.losses.CategoricalCrossentropy(from_logits=False)
 model = Model(inp, [policyOut,valueOut])
 model.compile(optimizer = 'SGD', loss={'valueHead' : 'mean_squared_error', 'policyHead' : bce})
 
-inputData = np.load("../minimax/positions.npy")
-policyOutcomes = np.load("../minimax/moveprobs.npy")
-valueOutcomes = np.load("../minimax/outcomes.npy")
+inputData = np.load("positions.npy")
+policyOutcomes = np.load("moveprobs.npy")
+valueOutcomes = np.load("outcomes.npy")
 
 print(policyOutcomes.shape)
 print(inputData.shape)

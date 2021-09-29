@@ -1,7 +1,7 @@
 import copy
 import numpy as np
 import math
-from HexapawnZero.common.game import Board
+from common.game import Board
 import random
 
 class Edge():
@@ -93,8 +93,6 @@ class MCTS():
                 v = 1.0
             if(winner == Board.BLACK):
                 v = -1.0
-            if(winner == Board.DRAW):
-                v = 0.0
             self.backup(v, node.parentEdge)
             return
         v = node.expand(self.network)

@@ -1,5 +1,5 @@
 import keras
-from HexapawnZero.common.game import Board
+from common.game import Board
 from mcts import Edge, Node, MCTS
 import numpy as np
 np.set_printoptions(precision=3, suppress=True)

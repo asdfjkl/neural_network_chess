@@ -1,5 +1,5 @@
-from HexapawnZero.common.game import Board
-from HexapawnZero.minimax.minimax import minimax
+from common.game import Board
+from mnx_minimax import minimax
 import copy
 import numpy as np
 
