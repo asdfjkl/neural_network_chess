@@ -19,7 +19,7 @@ gives a complete introduction into the technical inner workings of such engines.
 The book is split into four chapters:
 
 1. The first chapter introduces neural networks and covers all the basic building blocks that 
-are used to build deep networks such as those used by AlphaZero. Contents include the perceptron, back-propagation and gradient descent, classification, regression, multilayer perpectron, vectorization techniques, convolutional netowrks, squeeze and exciation networks, fully connected networks, batch normalization and rectified linear units, residual layers, overfitting and underfitting.
+are used to build deep networks such as those used by AlphaZero. Contents include the perceptron, back-propagation and gradient descent, classification, regression, multilayer perceptron, vectorization techniques, convolutional networks, squeeze and excitation networks, fully connected networks, batch normalization and rectified linear units, residual layers, overfitting and underfitting.
 
 2. The second chapter introduces classical search techniques used for chess engines as well as those used by AlphaZero. Contents include minimax, alpha-beta search, and Monte Carlo tree search.
   
