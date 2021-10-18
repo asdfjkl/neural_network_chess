@@ -12,7 +12,7 @@ python mnx_generateTrainingData.py
 # that was created using minimax search
 python sup_network.py
 
-# evalute the supervised network 
+# evaluate the supervised network 
 python sup_eval.py
 
 # train the network using reinforcement learning
