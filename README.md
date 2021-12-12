@@ -16,7 +16,7 @@ Donations are welcome:
 AlphaZero, Leela Chess Zero and Stockfish NNUE revolutionized Computer Chess. This book 
 gives a complete introduction into the technical inner workings of such engines. 
 
-The book is split into four chapters:
+The book is split into four main chapters (excluding introduction and conclusion):
 
 1. The first chapter introduces neural networks and covers all the basic building blocks that 
 are used to build deep networks such as those used by AlphaZero. Contents include the perceptron, back-propagation and gradient descent, classification, regression, multilayer perceptron, vectorization techniques, convolutional networks, squeeze and excitation networks, fully connected networks, batch normalization and rectified linear units, residual layers, overfitting and underfitting.
