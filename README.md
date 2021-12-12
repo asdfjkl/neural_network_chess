@@ -16,16 +16,16 @@ Donations are welcome:
 AlphaZero, Leela Chess Zero and Stockfish NNUE revolutionized Computer Chess. This book 
 gives a complete introduction into the technical inner workings of such engines. 
 
-The book is split into four main chapters (excluding introduction and conclusion):
+The book is split into four main chapters - excluding chapter 1 (introduction) and chapter 6 (conclusion):
 
-1. The first chapter introduces neural networks and covers all the basic building blocks that 
+1. Chapter 2 introduces neural networks and covers all the basic building blocks that 
 are used to build deep networks such as those used by AlphaZero. Contents include the perceptron, back-propagation and gradient descent, classification, regression, multilayer perceptron, vectorization techniques, convolutional networks, squeeze and excitation networks, fully connected networks, batch normalization and rectified linear units, residual layers, overfitting and underfitting.
 
-2. The second chapter introduces classical search techniques used for chess engines as well as those used by AlphaZero. Contents include minimax, alpha-beta search, and Monte Carlo tree search.
+2. Chapter 3 introduces classical search techniques used for chess engines as well as those used by AlphaZero. Contents include minimax, alpha-beta search, and Monte Carlo tree search.
   
-3. The third chapter shows how modern chess engines are designed. Aside from the ground-breaking AlphaGo, AlphaGo Zero and AlphaZero we cover Leela Chess Zero, Fat Fritz, Fat Fritz 2 and Effectively Updateable Neural Networks (NNUE) as well as Maia.
+3. Chapter 4 shows how modern chess engines are designed. Aside from the ground-breaking AlphaGo, AlphaGo Zero and AlphaZero we cover Leela Chess Zero, Fat Fritz, Fat Fritz 2 and Effectively Updateable Neural Networks (NNUE) as well as Maia.
 
-4. The fourth chapter is about implementing a miniaturized AlphaZero. Hexapawn, a minimalistic version of chess, is used as an example for that. Hexapawn is solved by minimax search and training positions for supervised learning are generated. Then as a comparison, an AlphaZero-like training loop is implemented where training is done via self-play combined with reinforcement learning. Finally, AlphaZero-like training and supervised training are compared.
+4. Chapter 5 is about implementing a miniaturized AlphaZero. Hexapawn, a minimalistic version of chess, is used as an example for that. Hexapawn is solved by minimax search and training positions for supervised learning are generated. Then as a comparison, an AlphaZero-like training loop is implemented where training is done via self-play combined with reinforcement learning. Finally, AlphaZero-like training and supervised training are compared.
 
 # Source Code
 
