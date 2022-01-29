@@ -31,6 +31,19 @@ are used to build deep networks such as those used by AlphaZero. Contents includ
 
 Just clone this repository or directly browse the files. You will find here all sources of the examples of the book.
 
+Several users contacted me as they have problem setting up their python environment. I highly suggest to use Ubuntu 20.04. Then the following steps should get you running:
+
+````
+git clone https://github.com/asdfjkl/neural_network_chess.git
+cd neural_network_chess
+cd chapter_03
+sudo apt install python3
+pip3 install --user python-chess
+pip3 install --user numpy
+pip3 install --user scikit-image
+pip3 install --user imageio
+```
+
 # About
 
 During COVID, I worked a lot from home and saved approximately 1.5 hours of commuting time each day. I decided to use that time to do something useful (?) and wrote a book about computer chess. In the end I decided to release the book for free.
