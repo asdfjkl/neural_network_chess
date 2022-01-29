@@ -42,7 +42,7 @@ pip3 install --user python-chess
 pip3 install --user numpy
 pip3 install --user scikit-image
 pip3 install --user imageio
-```
+````
 
 # About
 
