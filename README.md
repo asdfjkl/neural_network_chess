@@ -34,14 +34,13 @@ Just clone this repository or directly browse the files. You will find here all 
 Several users contacted me as they have problems setting up their python environment. I highly suggest to use Ubuntu 20.04. Then the following steps should get you running:
 
 ````
-git clone https://github.com/asdfjkl/neural_network_chess.git
-cd neural_network_chess
-cd chapter_03
 sudo apt install python3
+sudo apt install git
 pip3 install --user python-chess
 pip3 install --user numpy
 pip3 install --user scikit-image
 pip3 install --user imageio
+git clone https://github.com/asdfjkl/neural_network_chess.git
 ````
 
 # About
