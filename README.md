@@ -31,7 +31,7 @@ are used to build deep networks such as those used by AlphaZero. Contents includ
 
 Just clone this repository or directly browse the files. You will find here all sources of the examples of the book.
 
-Several users contacted me as they have problem setting up their python environment. I highly suggest to use Ubuntu 20.04. Then the following steps should get you running:
+Several users contacted me as they have problems setting up their python environment. I highly suggest to use Ubuntu 20.04. Then the following steps should get you running:
 
 ````
 git clone https://github.com/asdfjkl/neural_network_chess.git
