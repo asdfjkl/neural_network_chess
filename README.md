@@ -31,15 +31,15 @@ are used to build deep networks such as those used by AlphaZero. Contents includ
 
 Just clone this repository or directly browse the files. You will find here all sources of the examples of the book.
 
-Several users contacted me as they have problems setting up their python environment. I highly suggest to use Ubuntu 20.04. Then the following steps should get you running:
+Several users contacted me as they have problems setting up their python environment. I highly suggest to use Ubuntu 20.04. The examples do not require much computation power, i.e. you can also install a virtual machine. First install `git`, then install `numpy` and `pip` via `apt`, and finally install `TensorFlow`, `scikit-image`, `matplotlib`, `python-chess`, `tqdm` via `pip`. You can do so by opening a terminal and running the following commands.
 
 ````
-sudo apt install python3
-sudo apt install git
-pip3 install --user python-chess
-pip3 install --user numpy
-pip3 install --user scikit-image
-pip3 install --user imageio
+sudo apt install python3 git python3-numpy python3-pip
+pip3 install --user --upgrade TensorFlow
+pip3 install --user --upgrade scikit-image
+pip3 install --user --upgrade matplotlib
+pip3 install --user --upgrade python-chess
+pip3 install --user --upgrade tqdm
 git clone https://github.com/asdfjkl/neural_network_chess.git
 ````
 
