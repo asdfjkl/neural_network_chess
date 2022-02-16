@@ -11,6 +11,10 @@ Donations are welcome:
 
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=9K2JDF5YBDZT6)
 
+# Contact
+
+You can contact me via firstname <-> lastname <-> outlook <-> com
+
 # Contents
 
 AlphaZero, Leela Chess Zero and Stockfish NNUE revolutionized Computer Chess. This book 
