@@ -13,7 +13,7 @@ Donations are welcome:
 
 # Contact
 
-- You can contact me via firstname <-> lastname <-> outlook <-> com
+- You can contact me via firstname <-> dot <-> lastname <-> outlook <-> com
 - Please don't write to random strangers with the name "Dominik Klein" :-)
 
 # Contents
