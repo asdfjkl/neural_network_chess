@@ -11,6 +11,8 @@ Donations are welcome:
 
 [![paypal](https://www.paypalobjects.com/en_US/DK/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/donate?hosted_button_id=9K2JDF5YBDZT6)
 
+If you like the book, a review on [Amazon](https://www.amazon.de/dp/B09HFXFSBV) is also highly appreciated.
+
 # Contact
 
 - You can contact me via firstname <-> dot <-> lastname <-> outlook <-> com
