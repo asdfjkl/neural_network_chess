@@ -4,7 +4,7 @@
 
 # Free Book
 
-- Grab your free PDF copy [HERE](https://github.com/asdfjkl/neural_network_chess/releases/tag/v1.4)
+- Grab your free PDF copy [HERE](https://github.com/asdfjkl/neural_network_chess/releases)
 - Buy a printed copy at [HERE](https://www.amazon.de/dp/B09HFXFSBV) or [HERE](https://www.amazon.com/-/de/dp/B09HFXFSBV/)
 
 Donations are welcome: 
