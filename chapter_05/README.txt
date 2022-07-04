@@ -1,4 +1,4 @@
-This contains the source code for the Hexapawn example of Chapter 4.
+This contains the source code for the Hexapawn example of Chapter 5.
 
 Execute the files as follows:
 
