@@ -49,7 +49,6 @@ pip3 install --user --upgrade python-chess
 pip3 install --user --upgrade tqdm
 git clone https://github.com/asdfjkl/neural_network_chess.git
 ````
-Note: The examples on the book use [keras](https://keras.io/) with [tensorflow](https://www.tensorflow.org) as the backend. For those who prefer pytorch, there is port for Chapter 5 [here](https://github.com/ppeloton/neural_network_chess_pytorch)
 
 # About
 
@@ -66,3 +65,10 @@ To be completely transparent, here is what I make from every paper copy sold on 
 # Errata
 
 If you find mistakes, please report them [here](https://github.com/asdfjkl/neural_network_chess/issues/1) - your help is appreciated!
+
+# Links & Resources
+
+- The examples on the book use [keras](https://keras.io/) with [tensorflow](https://www.tensorflow.org) as the backend. For those who prefer pytorch, there is port for Chapter 5 [here](https://github.com/ppeloton/neural_network_chess_pytorch)
+- [Maia Chess](https://maiachess.com)
+- Deep Mind [blog post](https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go) on AlphaZero
+- [SunFish](https://github.com/kennyfrc/sunfishNNUE), a minimalist python chess engine with NNUE
