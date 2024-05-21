@@ -71,4 +71,4 @@ If you find mistakes, please report them [here](https://github.com/asdfjkl/neura
 - Chapter 5 [port](https://github.com/ppeloton/neural_network_chess_pytorch) to `pytorch`
 - [Maia Chess](https://maiachess.com)
 - Deep Mind [blog post](https://deepmind.google/discover/blog/alphazero-shedding-new-light-on-chess-shogi-and-go) on AlphaZero
-- [SunFish](https://github.com/kennyfrc/sunfishNNUE), a minimalist python chess engine with NNUE
+- [SunFish](https://github.com/thomasahle/sunfish), a minimalist python chess engine with NNUE support
