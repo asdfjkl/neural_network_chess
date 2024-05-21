@@ -49,6 +49,7 @@ pip3 install --user --upgrade python-chess
 pip3 install --user --upgrade tqdm
 git clone https://github.com/asdfjkl/neural_network_chess.git
 ````
+Note: The examples on the book use [keras](https://keras.io/) with [tensorflow](https://www.tensorflow.org) as the backend. For those who prefer pytorch, there is port for Chapter 5 [here](https://github.com/ppeloton/neural_network_chess_pytorch)
 
 # About
 
