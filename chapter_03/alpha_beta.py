@@ -18,7 +18,7 @@ pieceSquareTable = [
   [ -50,-40,-30,-30,-30,-30,-40,-50 ] ]
 
 
-def eval(board):
+def evaluate(board):
     scoreWhite = 0
     scoreBlack = 0
     for i in range(0,8):
@@ -79,7 +79,7 @@ def alphaBeta(board, depth, alpha, beta, maximize):
         else:
             return 1000000
     if depth == 0:
-        return eval(board)
+        return evaluate(board)
     legals = board.legal_moves
     if(maximize):
         bestVal = -9999
@@ -145,17 +145,17 @@ print(NODECOUNT)
 """
 print(board)
 print("white, initial")
-print(eval(board))
+print(evaluate(board))
 
 board.push(chess.Move.from_uci("g1f3"))
 print("black initial")
-print(eval(board))
+print(evaluate(board))
 
 board.push(chess.Move.from_uci("e7e5"))
 print("white after e7e5")
-print(eval(board))
+print(evaluate(board))
 
 
 board.push(chess.Move.from_uci("e2e4"))
-print(eval(board))
+print(evaluate(board))
 """
